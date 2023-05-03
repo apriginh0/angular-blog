@@ -1,0 +1,35 @@
+.container__small-card{
+   border: solid white 2px;
+   display: grid;
+   grid-auto-flow: row;
+   grid-template-columns: 1fr 1.5fr;
+   padding-right: 30px;
+   margin: 15px 0;
+}
+
+a{
+   text-decoration: none;
+}
+
+.small-card__photo{
+   display: flex;
+   align-items: center;
+}
+
+.small-card__photo > a > img{
+   width: 100%;
+
+}
+
+.small-card__title{
+   display: flex;
+   align-items: center;
+}
+
+.small-card__title > h3{
+   padding-left: 20px;
+}
+
+hr{
+   margin-bottom: 20px;
+}
