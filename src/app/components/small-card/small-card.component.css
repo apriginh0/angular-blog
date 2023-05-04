@@ -7,10 +7,6 @@
    margin: 15px 0;
 }
 
-a{
-   text-decoration: none;
-}
-
 .small-card__photo{
    display: flex;
    align-items: center;
