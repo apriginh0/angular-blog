@@ -3,6 +3,7 @@
    flex-direction: row;
    height: 100px;
    padding: 0 30px;
+   justify-content: center;
 }
 
 .menu-bar__content>ul {
