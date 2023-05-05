@@ -1,5 +1,4 @@
 .container__small-card{
-   border: solid white 2px;
    display: grid;
    grid-auto-flow: row;
    grid-template-columns: 1fr 1.5fr;
