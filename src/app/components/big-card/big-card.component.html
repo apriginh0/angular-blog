@@ -1,9 +1,9 @@
 <div class="container__big-card">
    <div class="big-card__photo">
-      <a href="https://apriginh0.github.io/portfolio/"><img src="{{photoCover}}" alt=""></a>
+      <a [routerLink]="['content', Id]"><img src="{{photoCover}}" alt=""></a>
    </div>
    <div class="big-card__title">
-      <h2><a href="https://apriginh0.github.io/portfolio/">{{cardTitle}}</a></h2>
+      <h2><a [routerLink]="['content', Id]">{{cardTitle}}</a></h2>
    </div>
    <div class="big-card__description">
       <p>{{cardDescription}}</p>
